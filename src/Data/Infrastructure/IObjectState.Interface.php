@@ -4,13 +4,12 @@ namespace ZORM\Data\Infrastrcture;
 
 /**
  *
- * ObjectState abstract class, all mapped or not OnjectState are here
+ * IObjectState Interface, all mapped or not ObjectStates are here
  *
  */
 
-public abstract ObjectState{
+interface IObjectState{
 
-    private ObjectStateEnum $__objectState;
     public function __construct(){
 
     }
